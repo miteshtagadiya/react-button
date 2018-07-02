@@ -1,6 +1,12 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
+import Button from "./Button/Button.jsx";
+import Button1 from "./Button/Buttonmui.jsx";
+
 const MyComponent = () => (
-    <h1>Hello from My Component</h1>
+  <div>
+    <Button />
+    <Button1 />
+  </div>
 );
 export default MyComponent;
