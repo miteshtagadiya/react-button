@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import ButtonSimple from "./Button/Button";
 import ButtonSizes from "./Button/ButtonSizes";
 import ContainedButtons from "./Button/ContainedButtons";
 import FloatingActionButtons from "./Button/FloatingActionButtons";
@@ -10,8 +11,6 @@ import TextButtons from "./Button/TextButtons";
 
 const MyComponent = () => (
   <div>
-    {/* <Button />
-    <Button1 /> */}
     <div>
       <h3>Text Buttons</h3>
       <TextButtons />
@@ -28,7 +27,6 @@ const MyComponent = () => (
       <h3>Floating Action Buttons</h3>
       <FloatingActionButtons />
     </div>
-
     <div>
       <h3>Sizes</h3>
       <ButtonSizes />
@@ -37,10 +35,14 @@ const MyComponent = () => (
       <h3>Icon Buttons</h3>
       <IconButtons />
     </div>
-
     <div>
       <h3>Icon Label Buttons</h3>
       <IconLabelButtons />
+    </div>
+    <hr />
+    <div>
+      <h3>ButtonSimple</h3>
+      <ButtonSimple />
     </div>
   </div>
 );
