@@ -12,14 +12,36 @@ const MyComponent = () => (
   <div>
     {/* <Button />
     <Button1 /> */}
-    <ButtonSizes />
-    <ContainedButtons />
-    <FloatingActionButtons />
-    <IconButtons />
-    <IconLabelButtons />
-    <OutlinedButtons />
-    <TextButtons />
+    <div>
+      <h3>Text Buttons</h3>
+      <TextButtons />
+    </div>
+    <div>
+      <h3>Outlined Buttons</h3>
+      <OutlinedButtons />
+    </div>
+    <div>
+      <h3>Contained Buttons</h3>
+      <ContainedButtons />
+    </div>
+    <div>
+      <h3>Floating Action Buttons</h3>
+      <FloatingActionButtons />
+    </div>
 
+    <div>
+      <h3>Sizes</h3>
+      <ButtonSizes />
+    </div>
+    <div>
+      <h3>Icon Buttons</h3>
+      <IconButtons />
+    </div>
+
+    <div>
+      <h3>Icon Label Buttons</h3>
+      <IconLabelButtons />
+    </div>
   </div>
 );
 export default MyComponent;
